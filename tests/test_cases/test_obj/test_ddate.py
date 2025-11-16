@@ -6,7 +6,7 @@ from freezegun import freeze_time
 
 from d_util import DBaseModel
 from d_util import DDate, DDateTime
-from tests.utils.file_cmp_test import output_test
+from tests.utils.file_cmp_test_framework import output_test
 
 
 @pytest.mark.usefixtures("output_test")

@@ -1,13 +1,13 @@
 Output:
 Getting the raw datetime from DDateTime and raw date from DDate
 DDateTime:
-<class 'common.src.objects.DDateTime.DDateTime'>
+<class 'src.objects.DDateTime.DDateTime'>
 2020-01-01 09:00:00-05:00
 Raw datetime:
 <class 'datetime.datetime'>
 2020-01-01 09:00:00-05:00
 Date:
-<class 'common.src.objects.DDateTime.DDate'>
+<class 'src.objects.DDateTime.DDate'>
 2020-01-01
 Raw date:
 <class 'datetime.date'>

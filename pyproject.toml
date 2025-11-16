@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "src"}]
+packages = [{include = "d_util", from = "src"}]
 
 [tool.poetry.group.dev.dependencies]
 # Code Quality / Linting / Formatting
@@ -48,7 +48,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 addopts = "-ra --strict-markers -m 'not integration'"
 python_files = ["test_*.py"]
-pythonpath = ["."]
+pythonpath = ["src"]
 testpaths = ["tests"]
 markers = [
     "integration: marks tests as integration (excluded by default)",

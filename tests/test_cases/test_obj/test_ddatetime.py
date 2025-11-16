@@ -6,8 +6,8 @@ import pytest
 import pytz
 from freezegun import freeze_time
 
-from src.objects.DBaseModel import DBaseModel
-from src.objects.DDateTime import DDateTime
+from d_util.objects.DBaseModel import DBaseModel
+from d_util.objects.DDateTime import DDateTime
 from tests.test_utils.file_cmp_test import output_test
 
 

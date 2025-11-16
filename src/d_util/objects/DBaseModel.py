@@ -3,7 +3,7 @@ from typing import Any, cast, get_type_hints
 from pydantic import BaseModel, ConfigDict, field_validator
 from pydantic_core.core_schema import ValidationInfo
 
-from src.objects.DDateTime import DDate, DDateTime
+from d_util.objects.DDateTime import DDate, DDateTime
 
 
 class DBaseModel(BaseModel):

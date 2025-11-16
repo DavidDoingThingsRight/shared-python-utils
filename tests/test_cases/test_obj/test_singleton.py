@@ -2,7 +2,7 @@ import random
 import time
 from threading import Thread
 
-from src.objects.Singleton import Singleton
+from d_util import Singleton
 
 
 class TestSingleton(Singleton):

@@ -4,8 +4,8 @@ from datetime import date
 import pytest
 from freezegun import freeze_time
 
-from src.objects.DBaseModel import DBaseModel
-from src.objects.DDateTime import DDate, DDateTime
+from d_util import DBaseModel
+from d_util import DDate, DDateTime
 from tests.test_utils.file_cmp_test import output_test
 
 

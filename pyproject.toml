@@ -39,6 +39,24 @@ jupyter = "^1.1.1"         # Jupyter Notebook and lab support for interactive de
 
 
 
+# here, dev-extras should mirror the dev group above
+[tool.poetry.extras]
+dev = [
+    "pre-commit",
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-mock",
+    "pytest-cov",
+    "freezegun",
+    "pytz",
+    "tuna",
+    "pydeps",
+    "jupyter"
+]
+
+
+
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"

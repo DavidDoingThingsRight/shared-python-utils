@@ -54,6 +54,8 @@ markers = [
     "integration: marks tests as integration (excluded by default)",
 ]
 
+
+
 [tool.coverage.run]
 source = ["src"]
 omit = ["tests/*", "*/__pycache__/*"]

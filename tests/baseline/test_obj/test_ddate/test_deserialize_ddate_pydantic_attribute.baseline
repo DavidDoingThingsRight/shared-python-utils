@@ -1,0 +1,7 @@
+Output:
+
+Serialized JSON:
+{"att1":1,"att2":"2020-01-01"}
+
+Deserialized object:
+att1=1 att2=datetime.date(2020, 1, 1)

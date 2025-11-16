@@ -1,0 +1,10 @@
+Output:
+When input is a datetime object with New York timezone in wrong offset, it will be converted to New York timezone
+DDateTime:
+2020-01-01 08:56:00-05:00
+Date:
+2020-01-01
+Time:
+08:56:00
+Piecewise:
+Year: 2020, Month: 1, Day: 1, Hour: 8, Minute: 56, Second: 0, Microsecond: 0

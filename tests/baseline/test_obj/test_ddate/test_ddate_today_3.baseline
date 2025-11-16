@@ -1,0 +1,10 @@
+Output:
+Today's date at 00:00 in default timezone (frozen to 2024-01-15 00:00:00 UTC):
+DDateTime:
+2024-01-14 19:00:00-05:00
+DDate:
+2024-01-14
+Raw date:
+2024-01-14
+Piecewise:
+Year: 2024, Month: 1, Day: 14

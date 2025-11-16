@@ -1,0 +1,3 @@
+Output:
+Serialize object with DDate attribute:
+{"att1":1,"att2":"2020-01-01"}

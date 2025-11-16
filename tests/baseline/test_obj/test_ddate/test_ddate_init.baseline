@@ -1,0 +1,8 @@
+Output:
+When input is a date object:
+DDate:
+2020-01-01
+Raw date:
+2020-01-01
+Piecewise:
+Year: 2020, Month: 1, Day: 1

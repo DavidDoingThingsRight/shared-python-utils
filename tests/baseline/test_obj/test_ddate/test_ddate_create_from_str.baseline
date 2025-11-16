@@ -1,0 +1,8 @@
+Output:
+Create a DDate object from string with format:
+DDate:
+2020-01-01
+Raw date:
+2020-01-01
+Piecewise:
+Year: 2020, Month: 1, Day: 1

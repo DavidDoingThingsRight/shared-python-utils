@@ -1,0 +1,3 @@
+Output:
+Serialize object with DDateTime attribute:
+{"att1":1,"att2":"2020-01-01T09:00:00-05:00"}

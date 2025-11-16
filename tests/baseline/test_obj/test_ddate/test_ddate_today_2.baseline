@@ -1,0 +1,10 @@
+Output:
+Today's date at 23:59 in New York timezone (frozen to 2024-01-15 23:59:59 EST):
+DDateTime:
+2024-01-15 23:59:59-05:00
+DDate:
+2024-01-15
+Raw date:
+2024-01-15
+Piecewise:
+Year: 2024, Month: 1, Day: 15

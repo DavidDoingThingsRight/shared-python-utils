@@ -1,0 +1,3 @@
+Output:
+Testing datetime.now() at 6 with UTC timezone:
+2024-01-01 01:00:00-05:00

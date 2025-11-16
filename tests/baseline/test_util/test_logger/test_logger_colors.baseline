@@ -1,0 +1,5 @@
+Output:
+2025-01-01 00:00:00 | INFO | test_logger:11 | [0mThis is a normal message[0m
+2025-01-01 00:00:00 | INFO | test_logger:12 | [92mThis is a success message[0m
+2025-01-01 00:00:00 | INFO | test_logger:13 | [93mThis is a warning message[0m
+2025-01-01 00:00:00 | INFO | test_logger:14 | [91mThis is an error message[0m

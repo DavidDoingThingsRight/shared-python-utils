@@ -1,0 +1,6 @@
+Output:
+Serialize and deserialize:
+Original: 2020-01-01
+Serialized: 2020-01-01
+Deserialized: 2020-01-01
+Equal: True

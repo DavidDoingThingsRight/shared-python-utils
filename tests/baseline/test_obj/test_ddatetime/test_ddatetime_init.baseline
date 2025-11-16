@@ -1,0 +1,10 @@
+Output:
+When input is a datetime object with UTC timezone, it will be converted to New York timezone
+DDateTime:
+2020-01-01 04:00:00-05:00
+Date:
+2020-01-01
+Time:
+04:00:00
+Piecewise:
+Year: 2020, Month: 1, Day: 1, Hour: 4, Minute: 0, Second: 0, Microsecond: 0

@@ -2,6 +2,7 @@ import exchange_calendars as xcals
 
 from d_util.objects.DDateTime import DDate, DDateTime
 
+
 class MarketCalendar:
 
     @staticmethod

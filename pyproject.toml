@@ -1,18 +1,20 @@
-[tool.poetry]
+[project]
 name = "shared-python-utils"
 version = "0.1.0"
 description = "Util package shared by my python projects. It consists of some base classes, my basic test framework, and a lot of linting/type checking rules"
-authors = ["daviddoingthingsright <daviddoingthingsright@gmail.com>"]
+authors = [{name = "daviddoingthingsright", email = "daviddoingthingsright@gmail.com"}]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "d_util", from = "src"}]
+requires-python = ">=3.12,<4.0"
+dependencies = [
+  "pydantic>=2.12.4,<3.0.0",
+  "python-dotenv==1.2.1",
+  "loguru>=0.7.3,<1.0.0",
+  "exchange-calendars>=4.11.3,<5.0.0"
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-pydantic = "^2.12.4"
-python-dotenv = "1.2.1"
-loguru = "^0.7.3"
-exchange-calendars = "^4.11.3"
+[tool.poetry]
+packages = [{include = "d_util", from = "src"}]
 
 [tool.poetry.group.dev.dependencies]
 # Code Quality / Linting / Formatting

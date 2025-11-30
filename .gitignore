@@ -206,6 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# mutmut mutation testing
+mutants/
+
 # Extra things I want to ignore
 .DS_Store
 .idea/

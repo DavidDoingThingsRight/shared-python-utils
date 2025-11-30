@@ -15,6 +15,7 @@ dependencies = [
 
 [tool.poetry]
 packages = [{include = "d_util", from = "src"}]
+exclude = ["mutants/**"]
 
 [tool.poetry.group.dev.dependencies]
 # Code Quality / Linting / Formatting
@@ -28,6 +29,9 @@ pytest-mock = "^3.14.0"    # Plugin to simplify mocking with pytest
 pytest-cov = "^6.0.0"      # Coverage reporting for pytest
 freezegun = "^1.5.1"       # Time-freezing library for reliable datetime testing
 pytz = "^2025.2"           # Timezone library, used in a test case
+
+# Mutation Testing
+mutmut ="^3.4.0"
 
 # Profiling / Visualization / Analysis
 tuna = "^0.5.11"           # GUI tool to visualize profiling results
@@ -45,7 +49,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.pytest.ini_options]
-addopts = "-ra --strict-markers -m 'not integration'"
+addopts = "-ra --strict-markers -m 'not integration' --ignore=mutants"
 python_files = ["test_*.py"]
 pythonpath = ["."]
 testpaths = ["tests"]
@@ -81,8 +85,11 @@ disable_error_code = [
 show_error_codes = true
 pretty = true
 strict = true
-# exclude unit tests from strict type checking
-exclude = "tests"
+# exclude unit tests and mutants folder from strict type checking
+exclude = [
+  "tests",
+  "mutants",
+]
 
 
 
@@ -90,7 +97,7 @@ exclude = "tests"
 line-length = 200
 fix = true
 show-fixes = true
-exclude = ["tests"]
+exclude = ["tests", "mutants"]
 
 
 [tool.ruff.lint]
